@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cd.css">
+    <title>CD - Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de CD</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Informações de Cadastro</h2>
+            <form id="info">
+                <label for="data" name="data"></label>
+                <input type="file" name="capa" placeholder="Coloque a imagem da capa" required>
+                <input type="text" name="nome" placeholder="Digite o nome do cd" required>
+                <input type="date" name="lancamento" required>
+                <input type="text" name="valor" placeholder="Digite o valor" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Informações e CDs Cadastrados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>CAPA</th>
+                        <th>NOME</th>
+                        <th>LANÇAMENTO</th>
+                        <th>VALOR</th>
+                    </tr>
+                </thead>
+                <tbody id="cd"></tbody>
+            </table>
+        </section>
+    </main>
+    <footer id="msg">Mensagem: </footer>
+</body>
+<script src="../js/scriptcd.js"></script>
+</html>
