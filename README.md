@@ -19,8 +19,8 @@
 ## Imagens do Projeto
 
 ![Pagina Inicial](./docs/wireframe/Captura1.PNG)
-![Cadastro de CDs](./docs/wireframe/Captura2.PNG)
-![Cadastro de Disco](./docs/wireframe/Captura3.PNG)
+![Cadastro de CDs](./docs/wireframe/Capturar2.PNG)
+![Cadastro de Disco](./docs/wireframe/Capturar3.PNG)
 
 ## Testes
 
